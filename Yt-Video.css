@@ -1,0 +1,106 @@
+/* Comman tags */
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    font-family: Roboto,Arial;
+    margin: 0%;
+    padding-top: 85px;
+    padding-left: 80px;
+}
+
+/* Tags for video */
+
+.yt-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    margin-right: 20px;
+    font-family: Roboto,Arial;
+}
+  
+@media (max-width: 999px) {
+   .yt-grid 
+   {
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+@media (max-width: 750px) {
+    .yt-grid 
+    {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
+.vid-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.vid-info{
+    background-color: white;
+}
+
+.ch-pic{
+    margin-bottom: 12px;
+    background-color: white;
+}
+
+.pic{
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.thumb{
+    position: relative;
+}
+
+.thumbnail{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.timing{
+    font-size: 12px;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8%;
+    right: 0%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.title{
+    font-weight: bold;
+    vertical-align: middle;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.channel-name{
+    font-size: 14px;
+    margin-bottom: 3px;
+    color:gray;
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+.time{
+    font-size: 14px;
+    margin-top: 0px;
+    color: gray;
+    font-size: 13px;
+}
